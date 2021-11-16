@@ -35,7 +35,26 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
+ffigen:
+  output: 'lib/rust_bindings.dart'
+  name: 'RustBinding'
+  functions:
+    include:
+      - hello_world
+  globals:
+    include: []
+  macros:
+    include: []
+  enums:
+    include: []
+  structs:
+    include: []
+  headers:
+    entry-points:
+      - 'rust_bindings.h'
+
 dev_dependencies:
+  ffigen: ^4.1.2
   flutter_test:
     sdk: flutter
 
