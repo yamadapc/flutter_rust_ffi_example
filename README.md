@@ -1,5 +1,5 @@
 # flutter_rust_ffi_example
-Flutter + Rust FFI Example
+Flutter + Rust FFI notes.
 
 ## Approaches
 ### Dynamic Library lookup
