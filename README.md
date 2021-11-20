@@ -24,6 +24,10 @@ void main() {
 ```
 
 ### Generating bindings
+#### HIGH-LEVEL
+* https://github.com/fzyzcjy/flutter_rust_bridge looks like an option
+
+#### LOW-LEVEL
 #### Rust side
 * Set-up [cbindgen](https://github.com/eqrion/cbindgen).
 * Do the above
